@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form & Validation</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="error"></div>
+    <form id="form" class="submission-form" method="GET">
+      <label>Username </label>
+      <input type="text" name="name" /><br />
+      <label>Password </label>
+      <input type="password" name="password" class="input-error" /><br />
+      <label>Email </label>
+      <input type="text" name="email" /><br />
+      <label>Contact </label>
+      <input type="number" name="phNo" /><br />
+      <label>Date of Birth </label>
+      <input type="date" name="dob" /><br /><br />
+      <label>Message </label>
+      <textarea id="Message"></textarea><br /><br />
+      <button onclick="myFunction()">Submit</button>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>

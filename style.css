@@ -1,0 +1,11 @@
+body {
+  background-color: lightblue;
+  margin: 10px;
+}
+.submission-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  border: 2px solid rosybrown;
+  padding: 2rem;
+  display: grid;
+}
